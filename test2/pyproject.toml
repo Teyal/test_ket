@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "test2"
+version = "0.1.0"
+description = ""
+authors = ["Teo H Gallarza <teogallarza@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ket-lang = {url = "https://gitlab.com/quantum-ket/ket/-/jobs/artifacts/master/raw/wheelhouse/ket_lang-0.4.0.dev2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl?job=wheelhouse"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
