@@ -8,6 +8,7 @@ authors = ["Teo H Gallarza <teogallarza@gmail.com>"]
 python = "^3.10"
 ket-lang = "^0.3.3"
 qubox-ufsc-quantuloop-client = {url = "https://qubox.ufsc.br:4242/download/qubox_ufsc_quantuloop_client-0.1.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"}
+pandas = "^1.4.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
